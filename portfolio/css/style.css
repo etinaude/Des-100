@@ -1053,3 +1053,20 @@ body {
 .center * {
   margin-bottom: 20px;
 }
+
+.blog-img {
+  width: 100%;
+  float: right;
+  margin: 50px 0 50px 50px;
+}
+
+.nav-btns {
+  justify-content: space-between;
+  display: flex;
+  margin: 2vh 0 5vh 0;
+}
+
+.blog-text {
+  width: 80ch;
+  text-align: justify;
+}
