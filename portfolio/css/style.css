@@ -1060,6 +1060,16 @@ body {
   margin: 50px 0 50px 50px;
 }
 
+.blog-img-small {
+  width: 50%;
+  float: right;
+  margin: 50px 0 50px 50px;
+}
+
+.top.blog-img-small {
+  margin: 0 0 50px 50px;
+}
+
 .nav-btns {
   justify-content: space-between;
   display: flex;
@@ -1069,4 +1079,41 @@ body {
 .blog-text {
   width: 80ch;
   text-align: justify;
+}
+
+.blog-img-small {
+  position: relative;
+  width: 50%;
+  margin: 50px 0 50px 50px;
+  float: right;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+  background-color: #2229;
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-img-small:hover .overlay {
+  opacity: 1;
+}
+
+.overlay div {
+  color: #49adff;
+  position: absolute;
 }
