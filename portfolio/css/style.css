@@ -1104,7 +1104,7 @@ div.left {
   width: 100%;
 }
 
-.overlay {
+.blog-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1124,7 +1124,7 @@ div.left {
   opacity: 1;
 }
 
-.overlay div {
+.blog-overlay div {
   color: #49adff;
   position: absolute;
   text-align: center;
