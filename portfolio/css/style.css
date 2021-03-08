@@ -1120,7 +1120,7 @@ div.left {
   justify-content: center;
 }
 
-.hover:hover .overlay {
+.hover:hover .blog-overlay {
   opacity: 1;
 }
 
