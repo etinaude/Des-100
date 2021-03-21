@@ -1135,3 +1135,8 @@ div.left {
   -ms-user-select: none;
   user-select: none;
 }
+
+.image-reference {
+  font-size: 0.7em;
+  margin-top: 10px;
+}
