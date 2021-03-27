@@ -1054,12 +1054,6 @@ body {
   margin-bottom: 20px;
 }
 
-.blog-img {
-  width: 100%;
-  float: right;
-  margin: 50px 0 50px 50px;
-}
-
 .nav-btns {
   justify-content: space-between;
   display: flex;
@@ -1085,6 +1079,15 @@ body {
   width: 30%;
   margin-top: 50px;
   margin-bottom: 0px;
+  margin-left: 40px;
+  float: right;
+}
+
+.blog-img-large {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
   margin-left: 40px;
   float: right;
 }
@@ -1139,4 +1142,8 @@ div.left {
 .image-reference {
   font-size: 0.7em;
   margin-top: 10px;
+}
+
+.red {
+  color: #e00;
 }
