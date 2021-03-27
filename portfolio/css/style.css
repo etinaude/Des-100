@@ -1147,3 +1147,9 @@ div.left {
 .red {
   color: #e00;
 }
+
+.references {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 0.9em;
+}
