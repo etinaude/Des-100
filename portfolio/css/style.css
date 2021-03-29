@@ -1127,7 +1127,8 @@ div.left {
   opacity: 1;
 }
 
-.blog-overlay div {
+.blog-overlay div,
+.blog-overlay h1 {
   color: #49adff;
   position: absolute;
   text-align: center;
