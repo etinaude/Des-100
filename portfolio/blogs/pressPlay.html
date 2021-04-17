@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Etienne Naude</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 minimum-scale=1"
+    />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Etienne Naude" />
+    <meta name="description" content="Etienne Naude Portfolio" />
+    <meta name="theme-color" content="#0080ff" />
+    <link rel="icon" type="image/svg" href="../assests/icons/icon.svg" />
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <script src="../js/aos.min.js"></script>
+    <script src="../js/jquery/jquery.min.js"></script>
+    <script src="../js/jquery/jquery.sticky.js"></script>
+    <script async src="../js/owl.carousel.min.js"></script>
+    <script async src="../js/popper.min.js"></script>
+    <script async src="../js/bootstrap.min.js"></script>
+    <script defer src="../js/cdn.min.js"></script>
+    <script defer src="../js/main.min.js"></script>
+    <script async src="../js/jquery/jquery.animateNumber.min.js"></script>
+    <script async src="../js/jquery/jquery.waypoints.min.js"></script>
+    <script defer src="../js/jquery/jquery.easing.1.3.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BBD6TYN2LZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-BBD6TYN2LZ");
+    </script>
+  </head>
+  <body
+    data-spy="scroll"
+    data-target=".site-navbar-target"
+    data-offset="300"
+    style="width: 105vw"
+  >
+    <div id="blog-overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="site-wrap">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      <header
+        class="site-navbar js-sticky-header site-navbar-target"
+        style="width: 100vw"
+        role="banner"
+      >
+        <div class="container" style="width: 100vw">
+          <div class="row align-items-center position-relative">
+            <div class="site-logo">
+              <a class="text-black"
+                ><span class="text-primary"><span>Etienne Naude</span></span></a
+              >
+            </div>
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto" role="navigation">
+                <ul
+                  class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block"
+                >
+                  <li>
+                    <a href="../index.html" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="../projects.html" class="nav-link">Projects</a>
+                  </li>
+                  <li>
+                    <a href="../blog.html" class="nav-link">Blog</a>
+                  </li>
+                  <li>
+                    <a href="../index.html#about-section" class="nav-link"
+                      >About Me</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/index.html#contact-section" class="nav-link"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="toggle-button d-inline-block d-lg-none">
+              <a
+                href="#"
+                class="site-menu-toggle py-5 js-menu-toggle text-white"
+                ><span class="icon-menu h3"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="blog-section row mb-5 justify-content-center">
+        <br />
+        <br />
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <div class="block-heading-1" data-aos="fade-up" data-aos-delay="">
+              <h2>Press Play</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-1 block__73694 blog-text">
+          <h3>Circuit</h3>
+
+          <div class="paragraph">
+            <div class="blog-img-small hover top">
+              <img
+                class="image"
+                target="_blank"
+                rel="noreferrer"
+                src="../assets/100/2.5/circuit easyeda.png"
+              />
+              <div class="blog-overlay">
+                <div class="font-size-10">Components</div>
+              </div>
+            </div>
+            <p>
+              This is a project to explore the basic functionality of Arduinos
+              and LEDs. I started by collecting the components I needed for the
+              project. These were:
+            </p>
+            <ul>
+              <li>1 Ardiuno Uno Replica</li>
+              <li>3 LEDs</li>
+              <li>6 jumper wires</li>
+              <li>1 low voltage button</li>
+              <li>3 180Ω resistors</li>
+              <li>3 micro USB cable</li>
+            </ul>
+            <p>
+              Once collecting these I followed the circuit provided in the
+              assignment details and ensured that the LEDs had the correct
+              polarity. Once I had finalised the circuit on the breadboard I
+              decided to create a PCB design using
+              <a href="easyeda.com/">easyEDA</a>, so if I wanted to make this
+              into a product or have a good quality circuit I could.
+            </p>
+          </div>
+
+          <br />
+          <h3>Innovations</h3>
+
+          <div class="paragraph">
+            <div class="blog-img-medium hover left top">
+              <video class="image" autoplay muted loop>
+                <source
+                  src="../assets/100/2.5/VID_20210414_132849.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="blog-overlay">
+                <div class="font-size-20">LED example</div>
+              </div>
+            </div>
+            <p>
+              I then copied the code from appendix 3 and stepped though each
+              script to ensure the hardware was working properly. I then decided
+              that I could use this opportunity for an arduino based LED based
+              project I had already been planning. This plan was to create a
+              light box which I could place on the wall above my computer, and
+              use as decor, and when I'm in a video conference I could use it to
+              light myself.
+            </p>
+            <p>
+              I started by testing an addressable LED strip to ensure it worked,
+              I did this by using the
+              <a href="http://fastled.io">fast LED library</a> in order to code
+              quickly and efficiently. I started by using the sample code
+              provided by
+              <a
+                href="https://howtomechatronics.com/tutorials/arduino/how-to-control-ws2812b-individually-addressable-leds-using-arduino/"
+                >howtomechatronics</a
+              >
+              and modified it to work with 25 LEDs (5*5 square).
+            </p>
+          </div>
+
+          <div class="paragraph">
+            <br />
+            <div class="blog-img-small hover top">
+              <img
+                class="image"
+                target="_blank"
+                rel="noreferrer"
+                src="../assets/100/2.5/cut wires.jpg"
+              />
+              <div class="blog-overlay">
+                <div class="font-size-20">cut wires pattern</div>
+              </div>
+            </div>
+            <p>
+              I then cut the led strip into strips of 5 LEDs measure the
+              distance between the LEDs and cut some braided core wire
+              accordingly. I then soldered these together in a "snake pattern"
+              to minimise the length of wire I'd need. I then Laser cut
+            </p>
+            <ul>
+              <li>
+                a box designed in
+                <a href="https://en.makercase.com">MakerCase</a> from 3mm
+                acrylic
+              </li>
+              <li>a base plate for the LEDs unattached to the box</li>
+              <li>
+                a diffusion sheet cut from a sheet of tracing paper, since it
+                has a nice texture and a good level of transparency
+              </li>
+            </ul>
+          </div>
+
+          <br />
+          <h3>Code</h3>
+
+          <div class="paragraph">
+            <br />
+            <div class="blog-img-large hover top left">
+              <video class="image" autoplay muted loop>
+                <source
+                  src="../assets/100/2.5/VID_20210416_113350.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <div class="blog-overlay">
+                <div class="font-size-20">Patterns</div>
+              </div>
+            </div>
+            <p>
+              I then created a range of functions to display the patterns for
+              example:
+            </p>
+            <pre>
+<code>
+  void blueSpec(){
+    for(int i = 0; i < 20; i++){              <i>// Create 20 patterns</i>
+      for(int i = 0; i < NUM_LEDS; i++){      <i>// Loop though LEDs and pick a random blue for each LED</i>
+        int s = random(120,230);              <i>// Change Saturation</i>
+        int v = random(120,230);
+        int h = 120 + random(0,30);           <i>// Pick a hue close to blue</i>
+        leds[i] = CHSV(h, s, v);              <i>// Set LED colour</i>
+      }
+      delay(200);                             <i>// Wait 0.2 seconds before creating a new pattern</i>
+      FastLED.show();                         <i>// Display the colours</i>
+    }
+  }
+</code>
+            </pre>
+
+            <a href="./../assets/100/2.5/code.ino" download>
+              <input
+                type="button"
+                class="btn btn-dark text-white py-3 px-5"
+                style="background-color: #49adff"
+                value="DOWNLOAD CODE"
+            /></a>
+            <br />
+            <br />
+            I then created a function to select which pattern to display using a
+            switch statement. This way I can pass a number as an index of which
+            function to run. I then looped through all the functions
+            continuously.
+          </div>
+
+          <br />
+          <div class="paragraph">
+            <h3>Future</h3>
+            <br />
+            <div class="blog-img-medium hover top">
+              <img
+                class="image"
+                target="_blank"
+                rel="noreferrer"
+                src="../assets/100/2.2/demo.jpg"
+              />
+              <div class="blog-overlay">
+                <div class="font-size-20">Cut Solution</div>
+              </div>
+            </div>
+            <p>With this set up I am able to do a huge range of things.</p>
+            <ul>
+              <li>play the functions in order or at random</li>
+              <li>
+                I can include a switch to change between run the functions and a
+                white light for video conferencing
+              </li>
+              <li>
+                I can include an esp32 to allow wireless control and voice
+                commands
+              </li>
+            </ul>
+
+            <div class="nav-btns container">
+              <a href="./ambitions.html">
+                <input
+                  type="button"
+                  class="btn btn-dark text-white py-3 px-5"
+                  style="background-color: #49adff"
+                  value="Previous Post"
+                />
+              </a>
+              <a href="../blog.html">
+                <input
+                  type="button"
+                  class="btn btn-dark text-white py-3 px-5"
+                  style="background-color: #49adff"
+                  value="Next Post"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
