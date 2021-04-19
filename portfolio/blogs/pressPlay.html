@@ -146,7 +146,7 @@
               project. These were:
             </p>
             <ul>
-              <li>1 Ardiuno Uno Replica</li>
+              <li>1 Arduino Uno Replica</li>
               <li>3 LEDs</li>
               <li>6 jumper wires</li>
               <li>1 low voltage button</li>
@@ -154,12 +154,10 @@
               <li>3 micro USB cable</li>
             </ul>
             <p>
-              Once collecting these I followed the circuit provided in the
+              Once collecting these, I followed the circuit provided in the
               assignment details and ensured that the LEDs had the correct
-              polarity. Once I had finalised the circuit on the breadboard I
-              decided to create a PCB design using
-              <a href="easyeda.com/">easyEDA</a>, so if I wanted to make this
-              into a product or have a good quality circuit I could.
+              polarity. I decided to use 180Ω resistors to give minimally
+              brighter glows while still preventing the burnout of the LEDs.
             </p>
           </div>
 
@@ -179,25 +177,23 @@
               </div>
             </div>
             <p>
-              I then copied the code from appendix 3 and stepped though each
-              script to ensure the hardware was working properly. I then decided
-              that I could use this opportunity for an arduino based LED based
-              project I had already been planning. This plan was to create a
-              light box which I could place on the wall above my computer, and
-              use as decor, and when I'm in a video conference I could use it to
-              light myself.
+              I then copied the code from Appendix 3 and stepped through each
+              script to ensure the hardware worked properly. I decided to use
+              this opportunity for an Arduino and LED-based project I had
+              already been planning. The plan was to create a lightbox which I
+              could place on the wall above my computer and use as decor, and
+              when I'm in a video conference, I could use it to light myself.
             </p>
             <p>
               I started by testing an addressable LED strip to ensure it worked,
               I did this by using the
-              <a href="http://fastled.io">fast LED library</a> in order to code
-              quickly and efficiently. I started by using the sample code
-              provided by
+              <a href="http://fastled.io">fast LED library</a> to code quickly
+              and efficiently. I started by using the sample code provided by
               <a
                 href="https://howtomechatronics.com/tutorials/arduino/how-to-control-ws2812b-individually-addressable-leds-using-arduino/"
                 >howtomechatronics</a
               >
-              and modified it to work with 25 LEDs (5*5 square).
+              and modified it to work with 25 LEDs (5*5 grid).
             </p>
           </div>
 
@@ -215,10 +211,10 @@
               </div>
             </div>
             <p>
-              I then cut the led strip into strips of 5 LEDs measure the
+              I then cut the led strip into strips of 5 LEDs, measure the
               distance between the LEDs and cut some braided core wire
-              accordingly. I then soldered these together in a "snake pattern"
-              to minimise the length of wire I'd need. I then Laser cut
+              accordingly, which I soldered together in a "snake pattern" to
+              minimise the length of wire I'd need. I then Laser cut:
             </p>
             <ul>
               <li>
@@ -228,8 +224,8 @@
               </li>
               <li>a base plate for the LEDs unattached to the box</li>
               <li>
-                a diffusion sheet cut from a sheet of tracing paper, since it
-                has a nice texture and a good level of transparency
+                a diffusion sheet cut from a sheet of tracing paper since it has
+                a nice texture and a good level of transparency
               </li>
             </ul>
           </div>
@@ -251,7 +247,7 @@
               </div>
             </div>
             <p>
-              I then created a range of functions to display the patterns for
+              I created a range of functions to display the patterns for
               example:
             </p>
             <pre>
@@ -281,7 +277,7 @@
             <br />
             <br />
             I then created a function to select which pattern to display using a
-            switch statement. This way I can pass a number as an index of which
+            switch statement. This way, I can pass a number as an index of which
             function to run. I then looped through all the functions
             continuously.
           </div>
@@ -290,22 +286,15 @@
           <div class="paragraph">
             <h3>Future</h3>
             <br />
-            <div class="blog-img-medium hover top">
-              <img
-                class="image"
-                target="_blank"
-                rel="noreferrer"
-                src="../assets/100/2.2/demo.jpg"
-              />
-              <div class="blog-overlay">
-                <div class="font-size-20">Cut Solution</div>
-              </div>
-            </div>
-            <p>With this set up I am able to do a huge range of things.</p>
+
+            <p>
+              With this setup, I can modify the box and code slightly to do a
+              wide range of things.
+            </p>
             <ul>
               <li>play the functions in order or at random</li>
               <li>
-                I can include a switch to change between run the functions and a
+                I can include a switch to change between run the functions and
                 white light for video conferencing
               </li>
               <li>
@@ -313,6 +302,11 @@
                 commands
               </li>
             </ul>
+            <p>
+              I plan to expand and improve on this project lots. My first step
+              would be to create a PCB with an esp32 and switch. From there, I'd
+              add extra functions and a better wall mount mechanism.
+            </p>
 
             <div class="nav-btns container">
               <a href="./ambitions.html">
