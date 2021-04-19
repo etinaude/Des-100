@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="ionicon"
+   viewBox="0 0 416.00272 415.99966"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="aperture.svg"
+   inkscape:version="1.0.1 (1.0.1+r73)"
+   width="416.00272"
+   height="415.99966">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Aperture</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.59040655"
+     inkscape:cx="723.35511"
+     inkscape:cy="230.90156"
+     inkscape:window-x="1"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6"
+     inkscape:document-rotation="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <title
+     id="title2">Aperture</title>
+  <path
+     d="m 202.54136,81.169832 -67.8,-67.8 a 209.65,209.65 0 0 0 -96.419999,74.63 H 199.72136 a 4,4 0 0 0 2.82,-6.83 z m -82.82,38.829998 H 19.631361 a 207.34,207.34 0 0 0 -16.1499999,125.9 l 119.0599989,-119.07 a 4,4 0 0 0 -2.82,-6.83 z m 176.28,-0.28 V 19.559832 a 207.82,207.82 0 0 0 -125.89,-16.0799998 l 119.06,119.0599978 a 4,4 0 0 0 6.83,-2.82 z m 116.52,50.38 -119.06,119.07 a 4,4 0 0 0 2.82,6.83 h 100.09 a 207.34,207.34 0 0 0 16.15,-125.9 z m -77.69,32.44 67.83,-67.82 a 209.08,209.08 0 0 0 -74.66,-96.519998 V 199.71983 a 4,4 0 0 0 6.83,2.82 z m -161.15,91.23 a 8,8 0 0 0 5.54,2.23 h 59.66 a 8,8 0 0 0 5.7,-2.39 l 49.18,-50 a 8,8 0 0 0 2.3,-5.62 l -0.06,-60.81 a 8,8 0 0 0 -2.38,-5.69 l -50,-49.25 a 8,8 0 0 0 -5.63,-2.3 l -60.84,0.06 a 8,8 0 0 0 -5.69,2.38 l -49.25,50 a 8,8 0 0 0 -2.3,5.63 l 0.06,60.78 a 8,8 0 0 0 2.45,5.76 z m 39.78,41.06 67.8,67.8 a 209.65,209.65 0 0 0 96.42,-74.63 h -161.4 a 4,4 0 0 0 -2.82,6.83 z m -93.46,-38.55 v 100.16 a 207.82,207.82 0 0 0 125.89,16.08 l -119.06,-119.06 a 4,4 0 0 0 -6.83,2.82 z m -38.829999,-82.82 -67.83,67.83 a 209.1,209.1 0 0 0 74.66,96.51 v -161.52 a 4,4 0 0 0 -6.83,-2.82 z"
+     id="path4"
+     style="fill:#49adff;fill-opacity:1" />
+</svg>
