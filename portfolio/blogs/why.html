@@ -133,14 +133,13 @@
         </div>
         <div class="container mb-1 block__73694 blog-text">
           <h3>Final GIF</h3>
-          !!! NOT FINAL (in place of final) !!!
           <div class="paragraph">
             <div class="blog-img-large hover top">
               <img
                 class="image"
                 target="_blank"
                 rel="noreferrer"
-                src="../assets/240/newest demo.gif"
+                src="../assets/240/it4.gif"
               />
               <div class="blog-overlay">
                 <h1>New Zealand has a fertility rate of 1.61BPW</h1>
@@ -194,11 +193,11 @@
               <a href="https://des100.etinaude.dev/blogs/processing"
                 >previous blog post</a
               >
-              New Zealand's fertility rate has been dropping. In 1910 the
+              New Zealand's fertility rate has been dropping. In 1920 the
               fertility rate was
               <a
                 href="https://www.statista.com/statistics/1033465/fertility-rate-new-zealand-1855-2020/"
-                >3.63 BPW</a
+                >3.26 BPW</a
               >. This fell to
               <a
                 href="https://www.stats.govt.nz/news/new-zealands-birth-rate-lowest-on-record-deaths-drop-in-2020"
@@ -445,7 +444,7 @@
               processing.
             </p>
             <div class="blog-img-large hover left top">
-              <img class="image" src="./../assets/240/demo.gif" />
+              <img class="image" src="./../assets/240/it0.gif" />
             </div>
             <p>
               This iteration was good but didn't have any background images
@@ -459,25 +458,83 @@
             <img class="image" src="./../assets/240/it1.gif" />
           </div>
           <p>
-            After positive feedback I made the background assets more detailed
-            and made the assets of the ladies not outlined to fit with the
+            After positive feedback I made the background assets more detailed.
+            The past background became based on an early victorian/late
+            industrial revolution factory setting. The modern day became based
+            on the Auckland city skyline, based off a collection of reference
+            images. So some of the larger building are depicted such as the
+            Skytower, the Lumley Building and the Viro Building (along side
+            others).
+            <br />
+            I made the assets of the ladies not outlined to fit with the design
             theme, This meant I had to change how I represented boundaries on
-            elements such as their arms. I also had to optimise my code since
-            processing is a notoriously slow language which meant that the speed
-            of the animation was slow and inconsistent depending on how much it
-            had to render.
+            elements such as their arms, for this instead of outlines I used
+            shadows and slightly different shades.
+            <br />
+            I also had to optimise my code since processing is a notoriously
+            slow language which meant that the speed of the animation was slow
+            and inconsistent depending on how much it had to render.
           </p>
           <div class="blog-img-large hover left top">
-            <img class="image" src="./../assets/240/newest demo.gif" />
+            <img class="image" src="./../assets/240/it2.gif" />
           </div>
           <p>
-            In my last iteration I decided to instead of showing the past and
+            In my 4th iteration I decided to instead of showing the past and
             future generally, to pick a specific time frame (in this case 100
             years), luckily my animations were relativity similar to styles
             representing 100 years ago and 100 years in the future, I just
             needed to adjust the number of prams to match the relevant dates. I
             also decided to fill in the bottom parts fo the screen to make it
-            more exciting. and .... // TODO
+            more exciting, to do this I made the grass field into a garden with
+            a picket fence. I also added a building into the future panel as
+            some feedback one the previous iteration suggested the third panel
+            seemed a bit bland.
+          </p>
+
+          <div class="blog-img-large hover left top">
+            <img class="image" src="./../assets/240/it3.gif" />
+          </div>
+
+          <p>
+            The feedback I received from the previous iteration was that it was
+            the background was too distracting from the prams and it might be
+            better to compose the image so the lady is walking on the bottom
+            third rather than roughly in the middle. It was also suggested that
+            I create a clearer distinction between the present and future skies
+            since they skies were very similar colours.
+            <br />
+            To fix the visual hierarchy issue I increased the size of the
+            sprites substantially. I shifted the whole image down which also
+            reduced the amount of unused space for the fields, and made the
+            modern sky a bit mirky firstly as a nod to air pollution lowering
+            the quality of life and secondly to create a clear distinction
+            between the present and future.
+            <br />
+            for performance reasons I also switched having 3 separate background
+            image files which can easily be swapped out individually to having
+            one background total. This does mean I need to draw more pixels each
+            draw cycle but reduces the amount of time importing the files.
+          </p>
+
+          <div class="blog-img-large hover left top">
+            <img class="image" src="./../assets/240/it4.gif" />
+          </div>
+
+          <p>
+            The feedback on this iteration was that it was clear to see that the
+            technology of the times were influence the number of children women.
+            Which was my final goal. I also received positive feedback about the
+            aesthetics. One thing which was suggested but due to performance and
+            time constraints I didn't implement was creating a parallax effect
+            by moving some foreground assets slowly to the left, and the
+            background assets to the right even slower. Although this would have
+            looked very good, it would also distract form the lady with the
+            prams, thus diluting my message.
+          </p>
+          <p>
+            Throughout this project I have used a lot of different techniques to
+            compose my designs and through many iterations ended up with a final
+            concept that I was happy with.
           </p>
 
           <h3>Resources</h3>
